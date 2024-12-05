@@ -1,0 +1,88 @@
+body{
+    padding: 10px;
+    background-image: url(images/backgroundpic.jpg);
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1{
+    letter-spacing: 6px;
+    text-align: center;
+    text-shadow: 2px 2px 2px rgb(40, 38, 38);
+    color: rgb(0, 0, 0);
+}
+/*
+img{
+    height: 500px;
+    width: 500px;
+    border: 5 solid black;
+    box-shadow: 5px 5px 5px rgb(21, 21, 21);
+}
+*/
+table{
+ border-spacing: 15px;
+}
+.para1{
+    color: rgb(54, 16, 111);
+    display: none;
+    
+}
+.hele:hover .para1{
+     display:block;
+}
+h2{
+    letter-spacing: 2px;
+    text-align: left;
+    text-shadow: 1px 1px 1px rgb(40, 38, 38)
+    font-color: rgb(67, 13, 149)
+}
+p{
+font-size: 20px;
+}
+li{
+    font-size:20px;
+}
+
+.bottom-left{
+    position: relative;
+}
+.bottom-left img{
+    width: 100%;
+    height: 650px; ;
+}
+.banner-text{
+    position: absolute;
+    bottom: 0;
+    color: rgb(255, 255, 255);
+   
+}
+.banner-text h4{
+    font-size: 46px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 5px;
+    padding-left: 20px;
+    box-shadow: 2px,2px,2px;
+    text-shadow: -1px 0 black, 0 2px black, 1px 0 black, 0 -2px black;
+}
+.banner-text p{
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 5px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    text-shadow: -1px 0 black, 0 2px black, 1px 0 black, 0 -2px black;
+}
+
+.logo{
+    max-width: 47px;
+    border: white;
+    border-radius: 22px;
+}
+.highlight-orange{
+    background-color: #f6ad65;
+  padding: 0 6px;
+
+}
